@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Piazzolla&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline; */
+}
+
+body {
+  color: #222;
+  font-family: 'Piazzolla', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(270deg, #a7e6ff, #d09afc, #23d5ae, #ffdf51 );
+	background-size: 400% 400%;
+	-webkit-animation: backgroundAnimate 20s ease infinite;
+	        animation: backgroundAnimate 20s ease infinite;
+}
+
+a{
+  text-decoration: none;
+  color: #fff
+}
+
+a:hover {
+  color: #222;
+  text-decoration: none;
+}
+
+#quote-box {
+  border-radius: 5px;
+  border: 2px solid transparent;
+  position: relative;
+  background-color: #fff;
+  width: 400px;
+  padding: 20px 30px;
+  display: table;
+}
+
+.quote-text {
+ text-align: center;
+ width: 400px;
+ height: auto;
+ font-size:1.8rem;
+}
+
+.quote-text > i {
+  margin: 5px;
+  font-size: .9rem;
+}
+
+.quote-author {
+  width: 400px;
+  text-align: right;
+  height: auto;
+  padding: 20px 0px;
+}
+
+#tweet-quote {
+  color: #222;
+}
+
+.buttons {
+  width: 400px;
+  margin: auto;
+  display: block;
+}
+
+.social {
+  cursor: pointer;
+}
+
+.social:hover {
+  opacity: 0.7;
+}
+
+#new-quote {
+  float: right;
+}
+
+.footer {
+  width: 400px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  padding-top: 5px;
+  color: #fff;
+}
+
+@-webkit-keyframes backgroundAnimate {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
