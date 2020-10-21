@@ -16,7 +16,11 @@ function getRandomQuote() {
 
       console.log(currentQuote, currentAuthor);
       quote.innerText = currentQuote;
-      author.innerText = currentAuthor;
+      if (currentAuthor[0] == '') {
+        author.innerText = 'Unknown';
+      } else {
+        author.innerText = currentAuthor;
+      }
     });
 }
 

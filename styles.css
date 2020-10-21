@@ -3,7 +3,7 @@
   margin: 0;
   padding: 0;
   list-style: none;
-  vertical-align: baseline; */
+  vertical-align: baseline; 
 }
 
 body {
@@ -88,6 +88,35 @@ a:hover {
   padding-top: 5px;
   color: #fff;
 }
+
+@media(max-width: 500px) {
+  #quote-box {
+    width: 330px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px;
+  }
+  .quote-text {
+    width: 300px;
+    font-size: 1.1rem;
+  }
+  .quote-author{
+    width: 300px;
+  }
+  .quote-buttons {
+    width: 300px;
+  }
+  #new-quote {
+    align-content: center;
+  }
+  .buttons{
+    width: 300px;
+  }
+  .footer {
+    width: 300px;
+  }
+}
+
 
 @-webkit-keyframes backgroundAnimate {
 	0% {
